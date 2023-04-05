@@ -1,0 +1,6 @@
+framework module Pods_HarryPotterRandomizer {
+  umbrella header "Pods-HarryPotterRandomizer-umbrella.h"
+
+  export *
+  module * { export * }
+}

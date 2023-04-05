@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F344E2C283A0E3E00A3284D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F344E2B283A0E3E00A3284D /* AppDelegate.swift */; };
+		3F344E2E283A0E3E00A3284D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F344E2D283A0E3E00A3284D /* SceneDelegate.swift */; };
+		3F344E30283A0E3E00A3284D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F344E2F283A0E3E00A3284D /* ViewController.swift */; };
+		3F344E33283A0E3E00A3284D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F344E31283A0E3E00A3284D /* Main.storyboard */; };
+		3F344E35283A0E3F00A3284D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F344E34283A0E3F00A3284D /* Assets.xcassets */; };
+		3F344E38283A0E3F00A3284D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F344E36283A0E3F00A3284D /* LaunchScreen.storyboard */; };
+		3F344E40283A0F0600A3284D /* HarryPotterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F344E3F283A0F0600A3284D /* HarryPotterManager.swift */; };
+		3F344E43283A152A00A3284D /* HouseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F344E42283A152A00A3284D /* HouseModel.swift */; };
+		C9E39755750CA85013B4C8ED /* Pods_HarryPotterRandomizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B06E63B61B597DB8E740600 /* Pods_HarryPotterRandomizer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F344E28283A0E3E00A3284D /* HarryPotterRandomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarryPotterRandomizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F344E2B283A0E3E00A3284D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F344E2D283A0E3E00A3284D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F344E2F283A0E3E00A3284D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F344E32283A0E3E00A3284D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F344E34283A0E3F00A3284D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F344E37283A0E3F00A3284D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F344E39283A0E3F00A3284D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F344E3F283A0F0600A3284D /* HarryPotterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterManager.swift; sourceTree = "<group>"; };
+		3F344E42283A152A00A3284D /* HouseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseModel.swift; sourceTree = "<group>"; };
+		7B06E63B61B597DB8E740600 /* Pods_HarryPotterRandomizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HarryPotterRandomizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		812ACA8789AA9227588F59E9 /* Pods-HarryPotterRandomizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterRandomizer.release.xcconfig"; path = "Target Support Files/Pods-HarryPotterRandomizer/Pods-HarryPotterRandomizer.release.xcconfig"; sourceTree = "<group>"; };
+		8DF325E063590F18C9AF6A54 /* Pods-HarryPotterRandomizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterRandomizer.debug.xcconfig"; path = "Target Support Files/Pods-HarryPotterRandomizer/Pods-HarryPotterRandomizer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F344E25283A0E3E00A3284D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E39755750CA85013B4C8ED /* Pods_HarryPotterRandomizer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F344E1F283A0E3E00A3284D = {
+			isa = PBXGroup;
+			children = (
+				3F344E2A283A0E3E00A3284D /* HarryPotterRandomizer */,
+				3F344E29283A0E3E00A3284D /* Products */,
+				CDDCDC931D82C218B4A23CAF /* Pods */,
+				FCBB098BE8D444AB2C1723BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F344E29283A0E3E00A3284D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F344E28283A0E3E00A3284D /* HarryPotterRandomizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F344E2A283A0E3E00A3284D /* HarryPotterRandomizer */ = {
+			isa = PBXGroup;
+			children = (
+				3F344E41283A152000A3284D /* Model */,
+				3F344E2B283A0E3E00A3284D /* AppDelegate.swift */,
+				3F344E2D283A0E3E00A3284D /* SceneDelegate.swift */,
+				3F344E2F283A0E3E00A3284D /* ViewController.swift */,
+				3F344E31283A0E3E00A3284D /* Main.storyboard */,
+				3F344E34283A0E3F00A3284D /* Assets.xcassets */,
+				3F344E36283A0E3F00A3284D /* LaunchScreen.storyboard */,
+				3F344E39283A0E3F00A3284D /* Info.plist */,
+				3F344E3F283A0F0600A3284D /* HarryPotterManager.swift */,
+			);
+			path = HarryPotterRandomizer;
+			sourceTree = "<group>";
+		};
+		3F344E41283A152000A3284D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F344E42283A152A00A3284D /* HouseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDDCDC931D82C218B4A23CAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DF325E063590F18C9AF6A54 /* Pods-HarryPotterRandomizer.debug.xcconfig */,
+				812ACA8789AA9227588F59E9 /* Pods-HarryPotterRandomizer.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FCBB098BE8D444AB2C1723BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B06E63B61B597DB8E740600 /* Pods_HarryPotterRandomizer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F344E27283A0E3E00A3284D /* HarryPotterRandomizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F344E3C283A0E3F00A3284D /* Build configuration list for PBXNativeTarget "HarryPotterRandomizer" */;
+			buildPhases = (
+				24CC64EA5BF4FD04D65C2220 /* [CP] Check Pods Manifest.lock */,
+				3F344E24283A0E3E00A3284D /* Sources */,
+				3F344E25283A0E3E00A3284D /* Frameworks */,
+				3F344E26283A0E3E00A3284D /* Resources */,
+				2001A07014696832ACDA7EBC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HarryPotterRandomizer;
+			productName = HarryPotterRandomizer;
+			productReference = 3F344E28283A0E3E00A3284D /* HarryPotterRandomizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F344E20283A0E3E00A3284D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3F344E27283A0E3E00A3284D = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 3F344E23283A0E3E00A3284D /* Build configuration list for PBXProject "HarryPotterRandomizer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F344E1F283A0E3E00A3284D;
+			productRefGroup = 3F344E29283A0E3E00A3284D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F344E27283A0E3E00A3284D /* HarryPotterRandomizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F344E26283A0E3E00A3284D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F344E38283A0E3F00A3284D /* LaunchScreen.storyboard in Resources */,
+				3F344E35283A0E3F00A3284D /* Assets.xcassets in Resources */,
+				3F344E33283A0E3E00A3284D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2001A07014696832ACDA7EBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HarryPotterRandomizer/Pods-HarryPotterRandomizer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HarryPotterRandomizer/Pods-HarryPotterRandomizer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HarryPotterRandomizer/Pods-HarryPotterRandomizer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24CC64EA5BF4FD04D65C2220 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HarryPotterRandomizer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F344E24283A0E3E00A3284D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F344E30283A0E3E00A3284D /* ViewController.swift in Sources */,
+				3F344E43283A152A00A3284D /* HouseModel.swift in Sources */,
+				3F344E2C283A0E3E00A3284D /* AppDelegate.swift in Sources */,
+				3F344E40283A0F0600A3284D /* HarryPotterManager.swift in Sources */,
+				3F344E2E283A0E3E00A3284D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F344E31283A0E3E00A3284D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F344E32283A0E3E00A3284D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F344E36283A0E3F00A3284D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F344E37283A0E3F00A3284D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F344E3A283A0E3F00A3284D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F344E3B283A0E3F00A3284D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F344E3D283A0E3F00A3284D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DF325E063590F18C9AF6A54 /* Pods-HarryPotterRandomizer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P3688SMR2A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HarryPotterRandomizer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.myrzakanurov.HarryPotterRandomizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F344E3E283A0E3F00A3284D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 812ACA8789AA9227588F59E9 /* Pods-HarryPotterRandomizer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P3688SMR2A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HarryPotterRandomizer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = a.myrzakanurov.HarryPotterRandomizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F344E23283A0E3E00A3284D /* Build configuration list for PBXProject "HarryPotterRandomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F344E3A283A0E3F00A3284D /* Debug */,
+				3F344E3B283A0E3F00A3284D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F344E3C283A0E3F00A3284D /* Build configuration list for PBXNativeTarget "HarryPotterRandomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F344E3D283A0E3F00A3284D /* Debug */,
+				3F344E3E283A0E3F00A3284D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F344E20283A0E3E00A3284D /* Project object */;
+}
